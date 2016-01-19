@@ -4,10 +4,30 @@ background: #fff url("http://3.bp.blogspot.com/-P6cCTveve_k/VT2DB9mhu8I/AAAAAAAA
 }
 
 .przycisk{
-    margin:50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     
 }
 
-.btn btn-primary btn-block{
-width: 50%;
-height: 50%;}
+.btn{
+    width: 20px;
+    height: 60px;
+    display:inline-block;
+    background-color: #5bc0de;
+    border-radius: 8px;
+    margin: 15px;
+    background-size: 48px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    vertical-align: inherit;
+    padding:20%;
+    font-size: 10px;
+   line-height: 5px;
+    
+   
+}
+    
+}
+
