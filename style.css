@@ -24,6 +24,15 @@ background: #fff url("/Users/luizagawron/Desktop/yh.jpg") no-repeat center;
     font-size: 100%;
    line-height: 120px; 
 }
+.responsive-image{
+    display:inline-block;
+    margin: 5%;
+    height:162px;
+    width:288px;
+    padding-bottom: 56.25%;
+    box-shadow: inset 0 0 80px rgba(0,0,0,0.5);
+
+}
  
 }
 
