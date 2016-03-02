@@ -2,6 +2,15 @@ header.gornypasek{
 background: #fff url("/Users/luizagawron/Desktop/yh.jpg") no-repeat center;
     background-size: contain;
 }
+.navbar-form a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-form a:hover {
+    color: #000;
+}
+
 
 .przycisk{
     display: block;
@@ -24,15 +33,54 @@ background: #fff url("/Users/luizagawron/Desktop/yh.jpg") no-repeat center;
     font-size: 100%;
    line-height: 120px; 
 }
-.responsive-image{
-    display:inline-block;
-    margin: 5%;
-    height:162px;
-    width:288px;
-    padding-bottom: 56.25%;
-    box-shadow: inset 0 0 80px rgba(0,0,0,0.5);
+
+
+  <style>
+* { box-sizing: border-box; }
+body, figure { margin: 0; }
+img { display: block; width: 100%; }
+
+body {
+	font-family: Avenir, Corbel, sans-serif;
+	text-align: center;
+}
+h1 {
+	font-family: 'UnifrakturCook', Avenir, Corbel, sans-serif;
+	margin: 0.125em;
+	font-size: 4em;
+	margin: 0.5em;
+	text-align: center;
 
 }
+
+figure {
+	padding: 1px;
+    
+}
+
+figcaption {
+	display: block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	top: -3em;
+	text-shadow: 1px 1px 1px #000;
+	height: 0;
+	padding: 0;
+	font-size: 1.125em;
+}
+
+@media (min-width: 36em) {
+	figure {
+		display: block;
+		float: left;
+		width: 33.3333333333333%;
+	}
+}
+
+</style>
  
 }
 
