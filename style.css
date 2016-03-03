@@ -11,7 +11,10 @@ background: #fff url("/Users/luizagawron/Desktop/yh.jpg") no-repeat center;
     color: #000;
 }
 
-
+.media-body{
+    text-align: left;
+    
+}
 .przycisk{
     display: block;
   margin-left: auto;
