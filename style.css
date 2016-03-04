@@ -34,18 +34,19 @@ background: #fff url("/Users/luizagawron/Desktop/yh.jpg") no-repeat center;
     overflow: hidden;
     vertical-align: inherit;
     font-size: 100%;
-   line-height: 120px; 
+   line-height: 200px; 
 }
 
 
   <style>
 * { box-sizing: border-box; }
 body, figure { margin: 0; }
-img { display: block; width: 100%; }
+img { display: block; width: 100%; height: 150px; }
 
 body {
 	font-family: Avenir, Corbel, sans-serif;
 	text-align: center;
+    
 }
 h1 {
 	font-family: 'UnifrakturCook', Avenir, Corbel, sans-serif;
@@ -58,6 +59,7 @@ h1 {
 
 figure {
 	padding: 1px;
+    font-size: 25px;
     
 }
 
@@ -70,7 +72,7 @@ figcaption {
 	position: relative;
 	top: -3em;
 	text-shadow: 1px 1px 1px #000;
-	height: 0;
+	
 	padding: 0;
 	font-size: 1.125em;
 }
